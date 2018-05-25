@@ -26,9 +26,7 @@ public class Test {
 		String str = ss.next();
 		if (str.equals("dog")) aaa = new Dog();
 		else aaa = new Cat();
-		
-		aaa.sing();
-		
+		aaa.sing();//동적 바인딩(Dynamic Binding): 프로그램 수행 시 호출할 메소드를 결정한다.
 		
 		int a = (int) 3.1;//형 변환(Type Casting)
 		System.out.println(a);

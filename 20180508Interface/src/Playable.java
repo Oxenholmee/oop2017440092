@@ -1,4 +1,7 @@
 
-public class Playable {
+public interface Playable {
+	
+	void walk();
+	void fetch();
 
 }
